@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { templateType } from '../../interface/I_template';
+import { templateType } from '@/interface/I_template';
 interface TemplateSlice {
   template: string;
 }

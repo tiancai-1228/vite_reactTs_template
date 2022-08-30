@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
-import logo from '~/logo.svg';
-import { useAppDispatch, useAppSelector } from '../../hook/useAppRedux';
-import { setDate } from '../../redux/slices/TemplateSlice';
+import logo from '@/logo.svg';
+import { useAppDispatch, useAppSelector } from '@/hook/useAppRedux';
+import { setDate } from '@/redux/slices/TemplateSlice';
 
 const Hello = () => {
   const dispatch = useAppDispatch();
