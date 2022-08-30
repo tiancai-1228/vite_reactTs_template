@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import logo from '@/logo.svg';
 import { useAppDispatch, useAppSelector } from '@/hook/useAppRedux';
 import { setDate } from '@/redux/slices/TemplateSlice';
-
+import { Button } from '@/stories/module/button/Button';
 const Hello = () => {
   const dispatch = useAppDispatch();
   const { template } = useAppSelector((state) => state.template.value);
@@ -33,14 +33,14 @@ const Hello = () => {
       </p>
 
       <div>
-        <button
-          className='mt-5 p-2  text-[gray] text-title rounded-lg bg-slate-200 hover:bg-blue-200 '
+        <Button
+          classNameStyle='mt-5 p-2  text-[gray] text-title rounded-lg bg-slate-200 hover:bg-blue-200 '
+          label=' getDataa'
           onClick={() => {
             handleGetData();
           }}
-        >
-          getData
-        </button>
+          size={'large'}
+        />
         <p className='mt-5 text-title'>reduxData:{template}</p>
       </div>
     </div>
