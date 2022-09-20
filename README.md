@@ -1,3 +1,13 @@
+## **template 📦**
+
+🚀 Vite
+📖 TypeScript
+🔨 Eslint
+💅 Prettier
+🔥 React
+🔥 Redux Toolkit
+🔥 Redux Saga
+
 ## **Using 📦**
 
 1. Clone Template
@@ -19,5 +29,3 @@ yarn dev
 ```
 rm -rf .git
 ```
-
-
