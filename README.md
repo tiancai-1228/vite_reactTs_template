@@ -1,11 +1,17 @@
 ## **template 📦**
 
 🚀 Vite
+
 📖 TypeScript
+
 🔨 Eslint
+
 💅 Prettier
+
 🔥 React
+
 🔥 Redux Toolkit
+
 🔥 Redux Saga
 
 ## **Using 📦**
